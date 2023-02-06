@@ -1,0 +1,29 @@
+body html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header {
+    width:100%;
+    background-color:transparent;
+    }
+
+#header .navbar-collapse{
+    width:auto;
+   }
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    color: #000;
+    border-bottom: solid 4px transparent;
+}
+    
+
+#header .nav-link:hover{
+    color: #800080;
+    border-bottom: solid 2px #800080;
+}
+ 
