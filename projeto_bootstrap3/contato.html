@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <title>Projeto Bootstrap</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/logotipo.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quemsomos.html">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="projeto.html">Projeto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="equipe.html">Nossa Equipe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="atuacao.html">Area de Atuação</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contato.html">Contato</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Final do carousel! -->
+
+    <div class="container">  
+
+    <h2>Contato</h2>
+    <!--Inicio do formulario-->
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputname" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputname">
+        </div>
+        <div class="col-md-6">
+          <label for="inputsobrenome" class="form-label">Sobre Nome</label>
+          <input type=text" class="form-control" id="inputsobrenome">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua Mar Azul, 92">
+        </div>
+        <div class="col-6">
+          <label for="inputbairro" class="form-label">Bairro</label>
+          <input type="text" class="form-control" id="inputbairro">
+        </div>
+        <div class="col-6">
+            <label for="inputcomple" class="form-label">Complemento</label>
+            <input type="text" class="form-control" id="inputcomple" placeholder="Casa - 2 / AP 00 BL - 0">
+          </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Estado</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha...</option>
+            <option value="SP">SP</option>
+				<option value="RJ">RJ</option>
+				<option value="ES">ES</option>
+				<option value="MG">MG</option>
+				<option value="PR">PR</option>
+			    <option value="MS">MS</option>
+				<option value="GO">GO</option>
+				<option value="MT">MT</option>
+				<option value="BA">BA</option>
+			    <option value="SC">SC</option>
+				<option value="RS">RS</option>
+				<option value="TO">TO</option>
+				<option value="PI">PI</option>
+				<option value="CE">CE</option>
+				<option value="PE">PE</option>
+				<option value="SE">SE</option>
+				<option value="AL">AL</option>
+				<option value="PB">PB</option>
+				<option value="PA">PA</option>
+				<option value="RN">RN</option>
+				<option value="AP">AP</option>
+				<option value="RR">RR</option>
+				<option value="RO">RO</option>
+				<option value="AM">AM</option>
+				<option value="AC">AC</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Lí e concordo com os termos necessitados
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    <!--Fim do formulario-->
+</div>
+
+ <!--Rodapé-->
+
+ <footer class="container-fluid text-white bg-dark">
+  <div class="row pt-5 pb-5">
+  <section class="col-md-5">
+    <h5>Integrante</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-white">Henry</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="col-md-5">
+      <h5>Contato</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="tel:+5513111111111">Tel: (11) 9 9999-9999</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://wa.me/5511934473017">Whatsapp: (11) 93447-3017</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://wa.me/5511934473017">Whatsapp: (11) 11111-1111</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://wa.me/5511934473017">Whatsapp: (11) 22222-2222</a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="col-md-2">
+      <section>
+        <a href="#" class="text-white">Voltar ao topo!</a>
+      </section>
+      </div>
+  
+</div>
+</footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
